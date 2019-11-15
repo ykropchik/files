@@ -28,6 +28,9 @@ int main() {
         cout << "Файл не существует \n \n";
     }
 
+    delete [] buffInput;
+    delete [] buffOutput;
+    delete f;
 
     return 0;
 }
