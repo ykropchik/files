@@ -4,7 +4,7 @@
 
 #include "lib.h"
 
-char* reverse(char* bufferInput){
+char* reverse(const char* bufferInput){
     char *bufferOutput = new char[100];
     unsigned short int pointer = 0;
 
