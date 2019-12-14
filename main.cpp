@@ -30,6 +30,7 @@ int main() {
 
     delete [] buffInput;
     delete [] buffOutput;
+    fclose(f);
     delete f;
 
     return 0;
